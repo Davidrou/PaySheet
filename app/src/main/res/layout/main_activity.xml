@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/navigationbg"
+
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/title_Color">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/app_icon"/>
+
+        <TextView
+            android:id="@+id/tv_toptitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="首页"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:clickable="true"
+            android:visibility="gone"
+            android:src="@drawable/ic_search"
+            />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_chongzhi"
+            android:text="充值"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:background="#33b5e5"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_tixian"
+            android:text="提现"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:background="#33b5e5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_fukuan"
+            android:text="创建"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:background="#33b5e5"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_dingdan"
+            android:text="订单"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:background="#33b5e5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_zhangdan"
+            android:text="账单"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:background="#33b5e5"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_1"
+            android:text="提现"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:visibility="invisible"
+            android:background="#33b5e5"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="账户余额"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:id="@+id/tv_text"/>
+
+
+
+</LinearLayout>
